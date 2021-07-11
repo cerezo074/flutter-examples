@@ -5,7 +5,7 @@ import './ResultModel.dart';
 class TextControl extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    ResultModel model = ResultModel(["Text number 1", "Text number 2"], -20);
+    ResultModel model = ResultModel(["Text number 16", "Text number 2"], -20);
     return TextControlState(model);
   }
 }
